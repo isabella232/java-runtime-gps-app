@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.mycompany.app;
+package com.esri.samples.gps_demo;
 
 import com.esri.arcgisruntime.ArcGISRuntimeEnvironment;
 import com.esri.arcgisruntime.mapping.BasemapStyle;
@@ -25,7 +25,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-public class App extends Application {
+public class GPS_demo extends Application {
 
     private MapView mapView;
 
@@ -38,7 +38,7 @@ public class App extends Application {
     public void start(Stage stage) {
 
         // set the title and size of the stage and show it
-        stage.setTitle("My Map App");
+        stage.setTitle("GPS demo app");
         stage.setWidth(800);
         stage.setHeight(700);
         stage.show();
