@@ -1,12 +1,14 @@
-# java-gradle-starter-project
+# java-runtime-gps-app
 
-Here is a starter project for the ArcGIS Runtime SDK for Java with Gradle. 
+This repository contains the code which is explained in the blog post [Adding a GPS to your Java ArcGIS Runtime App](https://blogs.esri.com/esri/arcgis/). 
+
+It shows a method of reading NMEA data from a USB serial port and using it to display your location using an ArcGIS Runtime for Java application.
 
 The project includes the Gradle wrapper, so there is no need to install Gradle to run the app.
 
-The app launches a window displaying a map.
+The app launches a window displaying a map showing your location.
 
-![screenshot](screenshot.png)
+![LocationDisplay](LocationDisplay.png)
 
 ## Instructions
 
@@ -58,7 +60,7 @@ Esri welcomes contributions from anyone and everyone. Please see our [guidelines
 
 ## Licensing
 
-Copyright 2019 Esri
+Copyright 2021 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not 
 use this file except in compliance with the License. You may obtain a copy 

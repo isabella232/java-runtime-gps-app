@@ -1,5 +1,5 @@
 /**
- * Copyright 2019 Esri
+ * Copyright 2021 Esri
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not 
  * use this file except in compliance with the License. You may obtain a copy 
@@ -20,7 +20,7 @@ plugins {
 }
 
 ext {
-    arcgisVersion = '100.10.0'
+    arcgisVersion = '100.11.0'
 }
 
 repositories {
@@ -38,6 +38,7 @@ dependencies {
     implementation "com.esri.arcgisruntime:arcgis-java:$arcgisVersion"
     natives "com.esri.arcgisruntime:arcgis-java-jnilibs:$arcgisVersion"
     natives "com.esri.arcgisruntime:arcgis-java-resources:$arcgisVersion"
+    implementation "com.fazecast:jSerialComm:[2.0.0,3.0.0)"
 }
 
 javafx {
