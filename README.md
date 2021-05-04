@@ -1,6 +1,6 @@
 # java-runtime-gps-app
 
-This repository contains the code which is explained in the blog post [Adding a GPS to your Java ArcGIS Runtime App](https://blogs.esri.com/esri/arcgis/). 
+This repository contains the code which is explained in the blog post [Adding a GPS to your Java ArcGIS Runtime App](https://community.esri.com/t5/arcgis-runtime-sdks-blog/adding-gps-data-to-your-arcgis-runtime-api-for-java-app/ba-p/1054145). 
 
 It shows a method of reading NMEA data from a USB serial port and using it to display your location using an ArcGIS Runtime for Java application.
 
